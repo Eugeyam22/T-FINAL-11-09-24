@@ -1,0 +1,49 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+}
+
+.contenedor{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex;
+}
+
+.contenedor li{
+    border: 1px black solid;
+    padding: 1em;
+    width: 15%;
+    }
+
+.card-title{
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo{ 
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.social-icons img{
+    width: 40px;
+    height: 40px;
+}
+
+@media(min-width:992)
